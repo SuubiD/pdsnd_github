@@ -5,7 +5,7 @@
 Bikeshare
 
 ### Description
-Analysis of US Bikeshare System for 3 cities
+Analysis of US Bikeshare Data System for three cities
 
 ### Files used
 *chicago.csv*\
