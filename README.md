@@ -14,4 +14,6 @@ Analysis of US Bikeshare System for 3 cities
 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+All thanks to:\
+[Udacity](https://www.udacity.com/)\
+[Stackoverflow](https://stackoverflow.com/)
