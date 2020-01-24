@@ -21,8 +21,8 @@ def get_filters():
     '''
     print('Hello! Let\'s explore some US bikeshare data!\n')
 
+    city_list=['chicago','new york city','washington']
     while True:
-        city_list=['chicago','new york city','washington']
         try:
             city_index=input("From the 3 cities listed below;\nchicago\nnew york city\nwashington\n\nPlease enter 0 for chicago,1 for new york and 2 for washington: ")
             city=city_list[int(city_index)]
