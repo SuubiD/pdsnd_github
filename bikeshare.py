@@ -21,10 +21,9 @@ def get_filters():
     '''
     print('Hello! Let\'s explore some US bikeshare data!\n')
 
-    the_cities=['chicago','new york city','washington'] #List of cities from which to choose
     while True:
         city=input("From the 3 cities listed below;\nchicago\nnew york city\nwashington\n\nChoose a City to analyse: ").lower()
-        if (city not in the_cities):
+        if city not in ('chicago','new york city','washington'):
             input(FAIL+'\nPlease insert correct city name!! Press Enter to continue...'+END)
             print()
         else:
