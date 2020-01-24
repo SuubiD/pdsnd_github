@@ -22,12 +22,14 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!\n')
 
     while True:
-        city=input("From the 3 cities listed below;\nchicago\nnew york city\nwashington\n\nChoose a City to analyse: ").lower()
-        if city not in ('chicago','new york city','washington'):
-            input(FAIL+'\nPlease insert correct city name!! Press Enter to continue...'+END)
-            print()
-        else:
+        city_list=['chicago','new york city','washington']
+        try:
+            city_index=input("From the 3 cities listed below;\nchicago\nnew york city\nwashington\n\nPlease enter 0 for chicago,1 for new york and 2 for washington: ")
+            city=city_list[int(city_index)]
             break
+        except:
+            input(FAIL+'\nPlease insert correct index!! Press Enter to continue...'+END)
+            print()
 
     #call the function that filters based on month,day or none or both
     choice=filter_inquiry()
