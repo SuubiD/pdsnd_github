@@ -2,10 +2,15 @@
 22/Jan/2020
 
 ### Project Title
-Bikeshare
+Exploring US Bikeshare Data
 
 ### Description
-Analysis of US Bikeshare Data System for three cities
+Analysis of US Bikeshare Data System for three cities namely\
+Chicago\
+New York City\
+Washington\
+\
+It is all done Python with Pandas and Numpy modules
 
 ### Files used
 *chicago.csv*\
